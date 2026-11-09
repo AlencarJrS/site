@@ -1,6 +1,7 @@
 title: Blog
 description: Arquivo de artigos e notas.
 lang: pt-BR
+timezone: America/Sao_Paulo
 baseurl: /site
 permalink: /:year/:month/:day/:title/
 defaults:
