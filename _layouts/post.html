@@ -7,8 +7,18 @@ layout: default
     <h1>{{ page.title | escape }}</h1>
     {% if page.description %}<p class="intro">{{ page.description | escape }}</p>{% endif %}
   </header>
-  <div class="prose">
+  <div class="post-content">
+    <details class="post-toc" hidden>
+      <summary>Neste artigo</summary>
+      <nav aria-label="Neste artigo">
+        <p class="post-toc-title" aria-hidden="true">Neste artigo</p>
+        <ol class="post-toc-list"></ol>
+      </nav>
+    </details>
+    <div class="prose">
 {{ content }}
+    </div>
   </div>
 </article>
 <a class="back" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Voltar ao arquivo</a>
+<script src="{{ '/assets/post.js' | relative_url }}" defer></script>

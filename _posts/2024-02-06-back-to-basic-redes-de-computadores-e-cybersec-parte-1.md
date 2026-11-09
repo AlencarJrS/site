@@ -9,24 +9,6 @@ category: "Network"
 
 > Republicado a partir da [captura do artigo original na Wayback Machine](https://web.archive.org/web/20240414234509/https://alencarjunior.com.br/index.php/2024/back-to-basic-redes-de-computadores-e-cybersec-parte-1/). A captura consultada preservou o texto e as legendas, mas 26 imagens do corpo estão indisponíveis.
 
-- [Resumo](#aioseo-resumo)
-- [Tipos de redes](#aioseo-topologias-de-rede)
-- [Topologia de rede](#aioseo-topologia-de-rede)
-  - [Topologia em estrela](#star-topology)
-  - [Topologia de barramento](#bus-topology)
-  - [Topologia de anel](#ring-topology)
-  - [Topologia de malha](#mesh-topology)
-- [Equipamentos de rede](#aioseo-equipamentos-de-rede)
-  - [Switch](#aioseo-switch)
-  - [Roteadores](#aioseo-roteadores)
-  - [Firewall](#aioseo-firewall)
-- [Conceitos e acrônimos](#aioseo-conceitos-e-acroimos)
-- [Endereço MAC](#aioseo-endereco-mac)
-- [Cabeçalho dos protocolos](#aioseo-cabecalho-dos-protocolos)
-- [Fragmentação de Pacotes](#aioseo-fragmentacao-de-pacotes)
-- [VLAN – Virtual LAN](#aioseo-vlan-virtual-lan)
-- [Cliente x Servidor – HTTP](#aioseo-cliente-x-servidor-http-s)
-
 ## Resumo {#aioseo-resumo}
 
 Hoje vamos falar de redes de computadores e como é um conhecimento essencial para trabalhar com segurança da informação com exemplos práticos. Essa publicação é a primeira de um compilado que estou elaborando que aborda redes, infraestrutura e segurança da informação, as futuras publicações serão incluídas sob demanda ao final desta página.

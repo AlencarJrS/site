@@ -11,11 +11,6 @@ category: "Defensive Security"
 
 ![Imagem de capa]({{ '/assets/posts/fortigate-vm-licenca-de-avaliacao-e-testes-de-utm/capa-fgt.webp' | relative_url }})
 
-- [Resumo](#aioseo-resumo)
-- [Como ativar a licença?](#aioseo-como-ativar-a-licenca)
-- [Laboratório: Testes de regras e UTM](#aioseo-exemplo-de-laboratorio)
-- [Laboratório: Testes IPS](#aioseo-laboratorio-testes-de-regras-e-utm)
-
 ## Resumo {#aioseo-resumo}
 
 Esta semana retomei a leitura do material da Fortinet para as certificações do fabricante, o conteúdo e abordagem do **NSE Institute** melhoraram muito desde que realizei a certificação NSE4 em 2020. Agora existe um módulo básico de redes e infraestrutura para quem está iniciando, o curso é aberto ao público geral sendo necessário apenas cadastro no portal **https://training.fortinet.com**. Recentemente, também foram anunciadas reformulações nas certificações: [NSE Training Program Update | Fortinet](https://www.fortinet.com/nse-training/training-program-update), que serão válidas à partir de outubro de 2023.
