@@ -105,10 +105,10 @@ h1 { margin: 0; font-size: clamp(2.65rem, 8vw, 4.5rem); line-height: 1.08; lette
 .prose blockquote { margin-inline: 0; padding-inline-start: 1rem; border-inline-start: 2px solid var(--border); color: var(--muted); }
 .back { display: inline-block; margin-top: 2rem; }
 
-@media (min-width: 64rem) {
+@media (min-width: 54rem) {
   .has-post-toc .frame { width: min(calc(100% - 5rem), 65rem); }
   .has-post-toc .post-heading { max-width: 52rem; }
-  .has-post-toc .post-content { display: grid; grid-template-columns: 14rem minmax(0, 1fr); gap: clamp(2rem, 4vw, 4rem); }
+  .has-post-toc .post-content { display: grid; grid-template-columns: clamp(11rem, 18vw, 14rem) minmax(0, 1fr); gap: clamp(2rem, 4vw, 4rem); }
   .post-toc { position: sticky; top: 2rem; align-self: start; margin: 0; }
   .post-toc summary { display: none; }
   .post-toc-title { display: block; }

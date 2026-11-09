@@ -15,7 +15,7 @@
   if (headings.length === 0) return;
 
   const list = toc.querySelector('.post-toc-list');
-  const desktop = window.matchMedia('(min-width: 64rem)');
+  const desktop = window.matchMedia('(min-width: 54rem)');
   let section;
   let subsections;
   const links = headings.map((heading) => {
