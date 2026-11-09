@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article>
+  <header class="post-heading">
+    <p class="label"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time></p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.description %}<p class="intro">{{ page.description | escape }}</p>{% endif %}
+  </header>
+  <div class="prose">
+{{ content }}
+  </div>
+</article>
+<a class="back" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> Voltar ao arquivo</a>

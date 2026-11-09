@@ -1,0 +1,13 @@
+title: Blog
+description: Arquivo de artigos e notas.
+lang: pt-BR
+baseurl: /site
+permalink: /:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+exclude:
+  - README.md

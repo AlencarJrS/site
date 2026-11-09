@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.lang | escape }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <link rel="icon" href="{{ '/assets/icon.svg' | relative_url }}" type="image/svg+xml">
+  <script src="{{ '/assets/theme.js' | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="frame masthead">
+    <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title | escape }}<span aria-hidden="true">.</span></a>
+    <button class="theme-toggle" type="button" aria-pressed="false" hidden>Tema claro</button>
+  </header>
+
+  <main class="frame main" id="conteudo" tabindex="-1">
+{{ content }}
+  </main>
+</body>
+</html>
