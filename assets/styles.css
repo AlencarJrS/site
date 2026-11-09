@@ -60,6 +60,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .intro-heading, .post-heading { margin-bottom: 2.5rem; }
 h1, .posts h2 { font-family: var(--serif); font-weight: 400; }
 h1 { margin: 0; font-size: clamp(2.65rem, 8vw, 4.5rem); line-height: 1.08; letter-spacing: -.045em; overflow-wrap: anywhere; }
+.post-heading h1 { font-size: clamp(2rem, 4.5vw, 3rem); }
 .intro { margin: .9rem 0 0; color: var(--muted); font-size: 1.1rem; line-height: 1.6; }
 .label { margin: 0 0 .65rem; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
 .posts { padding: 0; margin: 0; list-style: none; }
